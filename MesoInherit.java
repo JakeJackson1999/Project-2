@@ -15,6 +15,15 @@ public class MesoInherit extends MesoAbstract {
 	public char letterAverage() {
 		double average = (firstAscii + secondAscii + thirdAscii + fourthAscii) / 4;
 		double fraction = average - Math.floor(average);
+		int asciiNumber = 0;
+		char asciiLetter;
+		
+		if (fraction >= 0.5) {
+			asciiNumber = (int)Math.ceil(average);
+		}
+		else {
+			asciiNumber = (int)Math.floor(average);
+		}
 		
 		
 	}
