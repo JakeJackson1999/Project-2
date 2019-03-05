@@ -5,6 +5,9 @@ public class MesoInherit extends MesoAbstract {
 		int ceiling = (int)Math.ceil(average);
 		int floor = (int)Math.floor(average);
 		
+		calAverage[0] = ceiling;
+		calAverage[1] = floor;
+		calAverage[2] = average;
 	}
 	
 	
