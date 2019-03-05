@@ -1,16 +1,23 @@
 import java.util.Arrays;
 
-public abstract class MesoAbstract 
-{
-	double firstAscii = 0;
-	double secondAscii = 0;
-	double thirdAscii = 0;
-	double fourthAscii = 0;
-	 
-	firstAscii = (int)StID.subString(0, 1);
-	secondAscii = (int)StID.subString(1, 2);
-	thirdAscii = (int)StID.subString(2, 3);
-	fourthAscii = (int)StID.subString(3, 4);
+public abstract class MesoAbstract {
+	protected String StID;
+	
+	public MesoAbstract(MesoStation mesostation) {
+		StID = mesostation.getStID();
+	}
+	
+	/*char[] chars = StID.toCharArray();
+	char a = StID.charAt(0);
+	char b = StID.charAt(1);
+	char c = StID.charAt(2);
+	char d = StID.charAt(3);
+	
+	double firstAscii = (int)a;
+	double secondAscii = (int)b;
+	double thirdAscii = (int)c;
+	double fourthAscii = (int)d;*/
 	
 	int[] calAverage = new int[3];//TODO	
 }
+
