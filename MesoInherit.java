@@ -12,7 +12,9 @@ public class MesoInherit extends MesoAbstract {
 		return calAverage;
 	}
 	
-	
+	public char letterAverage() {
+		
+	}
 	
 	
 	
