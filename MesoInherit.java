@@ -25,7 +25,8 @@ public class MesoInherit extends MesoAbstract {
 			asciiNumber = (int)Math.floor(average);
 		}
 		
-		
+		asciiLetter = (char)asciiNumber;
+		return asciiLetter;
 	}
 	
 	
