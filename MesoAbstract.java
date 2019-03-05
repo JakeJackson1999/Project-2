@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public abstract class MesoAbstract 
 {
 	private MesoStation StID;
@@ -16,5 +18,6 @@ public abstract class MesoAbstract
 	thirdAscii = (int)StID.subString(2, 3);
 	fourthAscii = (int)StID.subString(3, 4);
 	
+	Arrays[] calAverage = new Arrays[3];
 	//TODO	
 }
