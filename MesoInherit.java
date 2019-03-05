@@ -32,7 +32,7 @@ public class MesoInherit extends MesoAbstract {
 		double average = calAverage[0];
 		
 		
-		return (char)average;
+		//return (char)average;
 	}
 	
 	
