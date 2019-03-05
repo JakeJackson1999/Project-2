@@ -2,12 +2,6 @@ import java.util.Arrays;
 
 public abstract class MesoAbstract 
 {
-	private MesoStation StID;
-	
-	public MesoAbstract(MesoStation StID) {
-		this.StID = StID;
-	}
-	
 	double firstAscii = 0;
 	double secondAscii = 0;
 	double thirdAscii = 0;
@@ -18,6 +12,5 @@ public abstract class MesoAbstract
 	thirdAscii = (int)StID.subString(2, 3);
 	fourthAscii = (int)StID.subString(3, 4);
 	
-	Arrays[] calAverage = new Arrays[3];
-	//TODO	
+	int[] calAverage = new int[3];//TODO	
 }
