@@ -1,11 +1,13 @@
 public class MesoInherit extends MesoAbstract {
 	
+	//call super
 	public MesoInherit(MesoStation mesostation) {
 		super(mesostation);
 	}
 	
 	public int[] calAverage() {
 		
+		//create char array and set individual chars from StID to each index
 		char[] chars = StID.toCharArray();
 		char a = StID.charAt(0);
 		char b = StID.charAt(1);
